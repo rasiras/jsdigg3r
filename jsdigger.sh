@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "enter_domain":
+echo "enter_recon_number":
 read varname
 mkdir /root/home/sniper/$varname
 for url in $(cat urls.txt);do
