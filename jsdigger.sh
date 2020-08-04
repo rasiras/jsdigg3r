@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "enter_recon_number":
+echo "enter_name_for_temp_folder":
 read varname
 mkdir /root/home/$varname
 for url in $(cat urls.txt);do
